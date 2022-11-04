@@ -1,0 +1,72 @@
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+:root {
+  --font-size: 15px;
+  --border-radius: 1rem;
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+
+html {
+  box-sizing: border-box;
+  font-size: var(--font-size);
+  font-family: 'Outfit', sans-serif;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100vh;
+  /* Fix all problems related to the navigation bar in webkit based mobile browsers */
+  min-height: -webkit-fill-available;
+}
+
+body {
+  background-color: var(--light-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: var(--white);
+  width: 85%;
+  padding: 1rem;
+  padding-bottom: 2.5rem;
+  border-radius: var(--border-radius);
+}
+
+@media only screen and (min-width: 900px) {
+  .card {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .card {
+    width: 20%;
+  }
+}
+
+.card__img {
+  width: 100%;
+  border-radius: var(--border-radius);
+}
+
+.card__title {
+  font-size: 1.5rem;
+  color: var(--dark-blue);
+  text-align: center;
+  margin-block: 0.5em;
+}
+
+.card__description {
+  text-align: center;
+  color: var(--grayish-blue);
+}
