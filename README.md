@@ -54,7 +54,8 @@ Learn more about accessibility in HTML and WAI-ARIA.
 
 ## Author
 
-Create with :heart: by [Kutu](https://github.com/kutu-dev).
+Created with :heart: by [Kutu](https://kutu-dev.github.io/).
 
 > - GitHub - [kutu-dev](https://github.com/kutu-dev)
+> - Twitter - [@kutu_dev](https://twitter.com/kutu_dev)
 > - Frontend Mentor - [@kutu-dev](https://www.frontendmentor.io/profile/kutu-dev)
